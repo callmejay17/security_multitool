@@ -1,33 +1,67 @@
 # security_multitool
-🔐 Security Multitool CLI
-Security Multitool CLI is a lightweight, command-line toolkit that brings essential security and reconnaissance utilities into one place. Designed for ethical hackers, penetration testers, sysadmins, and curious developers, it provides quick, reliable results without switching between multiple tools.
+# 🔐 Security Multitool CLI
 
-🚀 Features
-Port Scanner – Identify open ports on a target host.
+**Security Multitool CLI** is a lightweight, command-line toolkit that consolidates multiple cybersecurity and reconnaissance utilities into a single package.  
+Ideal for ethical hackers, penetration testers, sysadmins, and network engineers, it offers a fast and intuitive menu-driven interface for essential security checks.
 
-Whois Lookup – Retrieve domain registration details.
+---
 
-HTTP Header Analyzer – Inspect server headers for security insights.
+## 🚀 Features
+- **Port Scanner** – Scan a host for open ports.
+- **Whois Lookup** – Retrieve domain registration information.
+- **HTTP Header Analyzer** – View server HTTP headers for security insights.
+- **DNS Lookup** – Fetch DNS records for a given domain.
+- **IP Geolocation** – Identify the location and ISP of an IP address.
 
-DNS Lookup – View DNS records for any domain.
+---
 
-IP Geolocation – Find the geographical location and ISP of an IP.
+## 📦 Installation
 
-🛠 Why Choose It?
-Security Multitool CLI eliminates the need for multiple scripts or programs by combining them into a single, easy-to-use menu-driven interface. Whether you’re troubleshooting a network, performing reconnaissance, or learning about cybersecurity, this tool has you covered.
-
-📦 Installation
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/security-multitool.git
+Clone the repository and install the package:
+```bash
+git clone https://github.com/callmejay17/security-multitool.git
 cd security-multitool
 pip install .
-📌 Example Usage
-bash
-Copy
-Edit
+```
+
+You can also install it in editable mode for development:
+```bash
+pip install -e .
+```
+
+---
+
+## 📌 Usage
+
+Run the multitool from your terminal:
+```bash
 security-multitool
+```
 Select a tool from the menu and follow the prompts.
 
-Tagline: Your pocket-sized cybersecurity toolkit, right in the terminal.
+Example:
+```
+1. Port Scanner
+2. Whois Lookup
+3. HTTP Header Analyzer
+4. DNS Lookup
+5. IP Geolocation
+Enter your choice: 1
+Target IP/Domain: example.com
+```
+
+---
+
+## 🛠 Requirements
+- Python 3.7+
+- Internet connection (for certain features like Whois, Geolocation)
+
+---
+
+## ⚠️ Disclaimer
+This tool is intended for **educational and authorized security testing purposes only**.  
+The author is not responsible for any misuse of this software.
+
+---
+
+**Tagline:** *Your pocket-sized cybersecurity toolkit, right in the terminal.*
